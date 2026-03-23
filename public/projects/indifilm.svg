@@ -1,0 +1,30 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#08111F"/>
+  <circle cx="972" cy="122" r="178" fill="#10E7B3" fill-opacity="0.18"/>
+  <circle cx="176" cy="604" r="220" fill="#F97316" fill-opacity="0.16"/>
+  <rect x="84" y="86" width="1032" height="548" rx="36" fill="#0F172A" stroke="#243244" stroke-width="4"/>
+  <rect x="124" y="126" width="952" height="468" rx="28" fill="#111C31"/>
+  <rect x="156" y="160" width="454" height="400" rx="24" fill="url(#filmPoster)"/>
+  <circle cx="228" cy="234" r="28" stroke="#F8FAFC" stroke-width="8"/>
+  <circle cx="538" cy="234" r="28" stroke="#F8FAFC" stroke-width="8"/>
+  <path d="M228 262V458" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+  <path d="M538 262V458" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+  <path d="M228 458H538" stroke="#F8FAFC" stroke-width="8" stroke-linecap="round"/>
+  <rect x="660" y="182" width="348" height="28" rx="14" fill="#10E7B3"/>
+  <rect x="660" y="236" width="252" height="18" rx="9" fill="#64748B"/>
+  <rect x="660" y="280" width="294" height="18" rx="9" fill="#64748B"/>
+  <rect x="660" y="324" width="232" height="18" rx="9" fill="#64748B"/>
+  <rect x="660" y="386" width="156" height="48" rx="24" fill="#F97316"/>
+  <rect x="836" y="386" width="172" height="48" rx="24" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <rect x="660" y="468" width="108" height="74" rx="18" fill="#0B1220" stroke="#334155" stroke-width="2"/>
+  <rect x="780" y="468" width="108" height="74" rx="18" fill="#0B1220" stroke="#334155" stroke-width="2"/>
+  <rect x="900" y="468" width="108" height="74" rx="18" fill="#0B1220" stroke="#334155" stroke-width="2"/>
+  <text x="152" y="662" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="58" font-weight="700">IndiFilm</text>
+  <defs>
+    <linearGradient id="filmPoster" x1="156" y1="160" x2="610" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C2D12"/>
+      <stop offset="0.55" stop-color="#B45309"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+  </defs>
+</svg>
