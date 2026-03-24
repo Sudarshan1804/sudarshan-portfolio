@@ -1,3 +1,5 @@
+import { assetPath } from "../utils/assetPath";
+
 export const navItems = ["Home", "About", "Skills", "Projects", "Contact"];
 
 export const highlights = [
@@ -41,19 +43,19 @@ export const certifications = [
   {
     title: "Data Structures and Algorithms",
     platform: "CSE Pathshala",
-    image: "/certifications/csepathshala certificate.png",
+    image: assetPath("/certifications/csepathshala certificate.png"),
     imageAlt: "CSE Pathshala certification",
   },
   {
     title: "Responsive Web Design",
     platform: "freeCodeCamp",
-    image: "/certifications/freecodecamp.png",
+    image: assetPath("/certifications/freecodecamp.png"),
     imageAlt: "freeCodeCamp certification",
   },
   {
     title: "Prompt Engineering",
     platform: "Infosys Springboard",
-    image: "/certifications/prompengineering.png",
+    image: assetPath("/certifications/prompengineering.png"),
     imageAlt: "Infosys Springboard prompt engineering certification",
   },
 ];
@@ -65,7 +67,7 @@ export const projects = [
       "A  platform for independent filmmakers with real-time search, watchlists, and personalized recommendations. Built with React and integrated with TMDB API.",
     tags: ["React", "Node.js", "TMDB API", "Tailwind CSS"],
     githubUrl: "https://github.com/Sudarshan1804/Filmforge",
-    image: "/projects/indifilm.svg",
+    image: assetPath("/projects/indifilm.svg"),
     imageAlt: "IndiFilm dashboard illustration with a featured movie layout and discovery controls",
   },
   {
@@ -75,7 +77,7 @@ export const projects = [
     tags: ["React", "Node.js", "Maps API", "WebSocket"],
     githubUrl: "https://github.com/Sudarshan1804/Medicare",
     liveUrl: "https://medical-emergency-tan.vercel.app/",
-    image: "/projects/mediconnect2.png",
+    image: assetPath("/projects/mediconnect2.png"),
     imageAlt: "MediConnect interface illustration with a healthcare map and response analytics panel",
   },
   {
@@ -83,7 +85,7 @@ export const projects = [
     description:
       "A collaborative project management tool with Kanban boards, real-time updates, team chat, and automated workflow triggers for agile teams.",
     tags: ["React", "Node.js", "MongoDB", "Socket.io"],
-    image: "/projects/taskflow.svg",
+    image: assetPath("/projects/taskflow.svg"),
     imageAlt: "TaskFlow kanban board illustration with multiple workflow columns and task cards",
   },
 ];

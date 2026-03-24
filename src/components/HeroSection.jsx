@@ -1,12 +1,15 @@
 import { DownloadIcon, GitHubIcon, LinkedInIcon, MailIcon } from "./icons";
 import { contactItems } from "../data/portfolioData";
 import { SocialIcon } from "./ui";
+import { assetPath } from "../utils/assetPath";
 
 export default function HeroSection({ onNavigate }) {
   const emailAddress = contactItems.find((item) => item.icon === "mail")?.label;
   const emailComposeLink = emailAddress
     ? `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(emailAddress)}`
     : null;
+  const resumePath = assetPath("/Sudarshanreddy_resume.pdf");
+  const profileImagePath = assetPath("/profileimage1.jpeg");
 
   return (
     <section
@@ -50,7 +53,7 @@ export default function HeroSection({ onNavigate }) {
 
           <div className="flex flex-col items-start gap-4 sm:flex-row">
             <a
-              href="/Sudarshanreddy_resume.pdf"
+              href={resumePath}
               download="Sudarshanreddy_resume.pdf"
               className="theme-button-primary inline-flex min-w-64 items-center justify-center gap-3 rounded-[1.4rem] px-5 py-5 text-xl font-semibold transition hover:translate-y-[-2px]"
             >
@@ -88,7 +91,7 @@ export default function HeroSection({ onNavigate }) {
           <div className="absolute inset-6 rounded-[2rem] bg-mint/10 blur-3xl" aria-hidden="true" />
           <div className="theme-panel relative mx-auto w-full max-w-[380px] overflow-hidden rounded-[2rem] border p-3 shadow-[0_24px_70px_rgba(2,8,23,0.45)]">
             <img
-              src="/profileimage1.jpeg"
+              src={profileImagePath}
               alt="Portrait of Sudarshan Reddy"
               className="h-[400px] w-full rounded-[1.5rem] object-cover object-top"
             />
