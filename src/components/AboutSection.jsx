@@ -163,9 +163,16 @@ export default function AboutSection() {
             <div className="mt-6 space-y-6">
               <div className="grid gap-4 md:grid-cols-3">
                 {certifications.map((certification) => (
-                  <article
+                  <a
                     key={certification.title}
-                    className="overflow-hidden rounded-[1.4rem] border border-white/10 bg-white/[0.03]"
+                    href={certification.url}
+                    target={certification.url ? "_blank" : undefined}
+                    rel={certification.url ? "noreferrer" : undefined}
+                    className={`block overflow-hidden rounded-[1.4rem] border border-white/10 bg-white/[0.03] transition duration-300 ${
+                      certification.url
+                        ? "hover:-translate-y-2 hover:border-mint/40"
+                        : ""
+                    }`}
                   >
                     <img
                       src={certification.image}
@@ -181,7 +188,7 @@ export default function AboutSection() {
                         {certification.platform}
                       </p>
                     </div>
-                  </article>
+                  </a>
                 ))}
               </div>
             </div>

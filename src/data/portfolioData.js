@@ -45,18 +45,21 @@ export const certifications = [
     platform: "CSE Pathshala",
     image: assetPath("/certifications/csepathshala certificate.png"),
     imageAlt: "CSE Pathshala certification",
+    url: "https://drive.google.com/file/d/10ieeo3k1B7i7EDlq-iHQcdlUw8CM-cSY/view?usp=drive_link",
   },
   {
     title: "Responsive Web Design",
     platform: "freeCodeCamp",
     image: assetPath("/certifications/freecodecamp.png"),
     imageAlt: "freeCodeCamp certification",
+    url: "https://drive.google.com/file/d/1os3vp10QNHKsBzeWJJlBnjdtlXjvrZkl/view?usp=drive_link",
   },
   {
     title: "Prompt Engineering",
     platform: "Infosys Springboard",
     image: assetPath("/certifications/prompengineering.png"),
     imageAlt: "Infosys Springboard prompt engineering certification",
+    url: "https://drive.google.com/file/d/1zIhrshlJJLX0F9Tx9zK_Rb0T9-eWgI8J/view?usp=drive_link",
   },
 ];
 
